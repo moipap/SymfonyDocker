@@ -1,0 +1,16 @@
+SamKnows Metric Analyser v1.0.0
+===============================
+
+Period checked:
+
+    From: {{From}}
+    To:   {{To}}
+
+Statistics:
+
+    Unit: Megabits per second
+
+    Average: {{Average}}
+    Min: {{Min}}
+    Max: {{Max}}
+    Median: {{Median}}
