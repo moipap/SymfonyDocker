@@ -18,8 +18,7 @@ the measurement in bytes per second.
 
 ## What we're looking for
 
-This is a quick test put together by the backend team at SamKnows to test your skills in writing clear
-business logic and testing code (functional and unit). We've setup a base project using [Symfony 4](https://symfony.com) with [Flex](https://symfony.com/doc/current/setup/flex.html) and
+We've setup a base project using [Symfony 4](https://symfony.com) with [Flex](https://symfony.com/doc/current/setup/flex.html) and
 [Docker](https://www.docker.com). 
 
 Your task is to:
