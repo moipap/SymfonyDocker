@@ -1,8 +1,5 @@
 
-<div align="center">
-  <img src="samknows.png" align="center" width="60">
-  <h1 align="center">SamKnows Backend Engineering Test</h1>
-</div>
+
 
 ## Summary
 

@@ -93,17 +93,12 @@ class AppAnalyseMetricsCommand extends Command
         $length = count($data);
         $underperformPeriods = [];
         foreach ($data as $index => list('dtime' => $dtime, 'metricValue' => $value)) {
-            $value = $this->formatBytes($value); //Convert the data metricValue to Mb
-            //if not > float max
+            $value = $this->formatBytes($value); 
             $sum += $value;
             if (0 == $index) {
-                //first date
                 $from = $dtime;
-                // Set min value
                 $min = $value;
             } else {
-                //Compare with previous date 
-                //Ideally should be with all the previous days...
                 if ($previousValue > $value * 2) {
                     $underperformPeriods[] = $dtime;
                 }
